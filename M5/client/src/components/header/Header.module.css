@@ -1,0 +1,19 @@
+.header_banner{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right:20px;
+}
+
+.logo_div{
+    margin:10px;
+
+}
+.navbar_div{
+    margin:10px;
+}
+.phone_div{
+    margin:10px;
+}

@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Merriweather:wght@900&family=Poppins:wght@500&family=Roboto+Mono:wght@600&display=swap");
+
+.form_main {
+  width: 30vw;
+  height: 100vh;
+  border: solid 2px red;
+  border-radius: 10px;;
+
+}
+.form_container {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+.form_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: oblique;
+  height: 5vh;
+}
+.input_formatter_name {
+  width: 20vw;
+  height: 5vh;
+  margin: 15px;
+}
+.input_formatter_number {
+  width: 20vw;
+  height: 5vh;
+  margin: 15px;
+}
+.input_formatter_email {
+  width: 20vw;
+  height: 5vh;
+  margin: 15px;
+}
+.input_formatter_message {
+  width: 20vw;
+  height: 20vh;
+  margin: 15px;
+}
+.input_formatter_submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 20vw;
+    height: 5vh;
+    margin: 15px;
+
+}
+.input_formatter_button{
+    height:5vh;
+    width:10vw;
+    border-radius:10px;
+    background-color: #e00f0f;
+    color: white;
+}
+.modal{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin:200px 100px 500px 500px;
+  width:30vw;
+  height:23vh;
+  padding:20px;
+}
+.modal_inner{
+  background-color: rgb(182, 19, 13);
+  color: white;
+  height:17vh;
+  border-radius: 10px;
+  padding:20px;
+
+}
